@@ -1,0 +1,52 @@
+header {
+}
+.container {
+  background-color: rgb(129, 129, 129);
+}
+footer {
+  background-color: black;
+  height: 100px;
+}
+body {
+  color: white;
+}
+.logo-name {
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 0 0 24px;
+}
+.btn {
+  background-color: rgb(66, 66, 66);
+}
+nav {
+  background-color: rgb(182, 182, 182);
+  display: flex;
+  justify-content: space-between;
+}
+.logo-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-secondary {
+  background-color: rgb(253, 253, 253);
+  color: rgb(0, 25, 253);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}

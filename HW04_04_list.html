@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: black;
+            color: white;
+        }
+        h1 {
+            color: rgb(79, 250, 156);
+        }
+        h2 {
+            color: rgb(26, 230, 43);
+        }
+        ul, ol {
+            margin: 10px 0;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        .red {
+            color: red;
+        }
+        .container {
+        width: 800px;
+        background-color: rgb(83, 83, 83);
+        margin: auto;
+        padding: 40px;
+        border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>LIST</h1>
+    <hr>
+
+    <h2>Unordered HTML List</h2>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h2>Unordered HTML List use disc</h2>
+    <ul style="list-style-type: disc;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h2>Unordered HTML List use circle</h2>
+    <ul style="list-style-type: circle;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h2>Unordered HTML List use square</h2>
+    <ul style="list-style-type: square;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h2>Unordered HTML List use none</h2>
+    <ul style="list-style-type: none;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h2>My Favorite Things</h2>
+    <ol>
+        <li>Pizza</li>
+        <li>Reading Books</li>
+        <li>Traveling</li>
+        <li>Playing Video Games</li>
+    </ol>
+
+    <h2>How to Make a Sandwich</h2>
+<ol type="A" start="4">
+    <li>Get two slices of bread</li>
+    <li>Spread butter on one side of each slice</li>
+    <li>Add your favorite filling (e.g., ham, cheese, or veggies)</li>
+    <li>Place the slices together</li>
+    <li>Enjoy your sandwich!</li>
+</ol>
+
+
+
+    <h2>Food Categories (Nested List)</h2>
+    <ol>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ol type="a">
+                <li>Carrot</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ol>
+        </li>
+        <li>Desserts
+            <ol type="1">
+                <li>Ice Cream</li>
+                <li>Chocolate Cake</li>
+                <li>Cookies</li>
+            </ol>
+        </li>
+    </ol>
+<hr>
+    <h2>Programming Languages (Description List)</h2>
+    <p style="color: red;">use tag &lt;dl&gt; &lt;/dl&gt; , &lt;dt&gt;&lt;/dt&gt; , &lt;dd&gt;&lt;/dd&gt;</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>The standard language for creating web pages.</dd>
+        <dt>CSS</dt>
+        <dd>A stylesheet language used to describe the presentation of a web page.</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language used to create interactive effects within web browsers.</dd>
+    </dl>
+<hr>
+    <a href="index.html">Back to Home</a>
+</div>
+</body>
+</html>
