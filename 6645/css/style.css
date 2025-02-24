@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: black;
+  padding: 0;
+  color: white;
+}
+header {
+  margin: 0 40px;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+footer {
+  background-color: rgb(90, 160, 90);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+  line-height: 0;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 0 0 24px;
+}
+.btn {
+  padding: auto;
+  margin-top: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-secondary {
+  background-color: rgb(253, 253, 253);
+  color: rgb(54, 202, 86);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+}
+.btn-primary {
+  background-color: rgb(48, 134, 59);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+}
+.card {
+  background-color: rgb(81, 136, 90);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.btn-primary:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(57, 190, 68);
+}
+.btn-secondary:hover {
+  background-color: rgb(57, 190, 92);
+  color: rgb(255, 255, 255);
+}
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: green;
+  font-size: 1.1rem;
+}
+.menu ul li a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+}

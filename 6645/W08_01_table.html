@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student List</title>
+    <style>
+        table,th,td {
+            width: 500px;
+            border: 1px solid rgb(2, 250, 23);
+        }
+        th {
+            background-color: rgb(20, 107, 12);
+        }
+        td {
+            text-align: center;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
+            color: rgb(35, 196, 48);
+        }
+        a {
+        text-decoration: none;
+        color: rgb(6, 243, 6);
+        }
+        a:hover {
+        text-decoration: underline;
+        color: blueviolet;
+        font-style: italic; 
+        font-weight: bold;
+        }
+        .container{
+        width: 800px;
+        background-color: rgb(51, 51, 51);
+        margin: auto;
+        padding: 40px;
+        border-radius: 30px;
+        }
+    </style>
+
+</head>
+<div class="container">
+<body>
+  <h1>Basic Table</h1>
+  <h3>Student List</h3>
+  <!-- Start Code Here -->
+    <table border="1" width = "100">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>นายซอฟ</td>
+            <td>1</td>
+            <td>B+</td>
+        </tr>
+        
+        <tr>
+            <td>นายเคน</td>
+            <td>2</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>นางฟ่าน</td>
+            <td>3</td>
+            <td>B</td>
+        </tr>
+
+    </table>
+
+  <!-- End Code Here -->
+
+  <hr>
+
+  <h1>Table with Colspan and Rowspan</h1>
+  <h3>Food Menu</h3>
+  <table border="1" width = "500px" cellpading = "5" cellspacing="0">
+    <tr>
+      <th>Day</th>
+      <th>Breakfast</th>
+      <th>Lunch</th>
+      <th>Dinner</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Toast</td>
+      <td>Kaopad</td>
+      <td>Mixiao</td>
+    </tr>
+    <tr>
+        <td rowspan="2" bgcolor="blue">Tuesday</td>
+        <td>Mama</td>
+        <td rowspan="2" style="text-align: center;" bgcolor="blue">MD'</td>
+        <td>kaotom</td>
+    <tr>
+            <td>Pankcakes</td>
+            <td>Soup</td>
+    </tr>
+        <tr>
+        <td>wednesday</td>
+        <td colspan="3" style="text-align: center;" bgcolor="red">Pizza</td>
+    </tr>
+        <tr>
+            <td colspan="4" style="text-align: center;" bgcolor="green">Special Dinner Friday Mama Night!</td>
+        </tr>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h1>Styled Table with CSS</h1>
+  <h3>Product List</h3>
+  <table>
+    <tr>
+      <th>Product</th>
+      <th>Category</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Laptop</td>
+      <td>Electronics</td>
+      <td>$299</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>Electronics</td>
+      <td>$99</td>
+    </tr>
+    <tr>
+      <td>Table</td>
+      <td>Furniture</td>
+      <td>$129</td>
+    </tr>
+  </table>
+
+
+  <hr>
+ <a href="index.html">Back to home</a>
+</div>
+  
+
+
+</body>
+</html>
