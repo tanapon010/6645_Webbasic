@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    :root {
+    --primary-color: rgb(18, 187, 18);
+    --secondary-color: rgb(2, 100, 2);
+    --background-color: aliceblue;
+    --text-color-normal: black;
+    --box-shadow: 0px 2px 10px #0000006b;
+    --base-white-color: white;
+    }
+
+
+
+    .header-container {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    header {
+    background-color: rgb(117, 117, 117);
+    padding: 10px 0;
+    box-shadow: var(--box-shadow);
+    }
+    .hamberger-icon {
+    display: none;
+    }
+
+    .logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+    display: flex;
+    align-items: center;
+    }
+    }
+
+    nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 15px;
+    list-style: none;
+
+    margin-left: 20px;
+    a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    }
+    a:hover {
+    color: var(--secondary-color);
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header>
+        <div class="header-container">
+            <div class="logo-menu">
+                <img src="images/Minecraft Logo.png" alt="">
+                <h1>PortFolio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">Feather</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-button">
+                <button class="btn">Sign up</button>
+                <button class="btn-login">Login</button>
+            </div>
+            
+            <!-- Hamburger Menu -->
+            <div class="hamberger-icon" onclick="openMenu()">&#9776</div>
+        </div>
+        </header>
+    </div>
+</body>
+</html>
