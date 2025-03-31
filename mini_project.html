@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <style>
+        body {
+            background-color: black;
+            background-size: cover;
+            font-family: 'Mitr', sans-serif;
+            color: aliceblue;
+            align-items: center;
+            padding: 100px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .card {
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        a{
+            text-decoration: none;
+            color: rgb(0, 255, 55);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header class="container-fluid bg-black text-white py-3 align-items-center">
+        <img src="images/Minecraft Logo.png" alt="">
+        <h1>Welcome to Portfolio Tanapon</h1>
+        <p><a href="index.html">Web Developer</a> | <a href="Test.html">Designer</a> | <a href="https://youtu.be/ZHgyQGoeaB0?si=sjC2v0d8ph_zT0ij">Don't click!</a> </p>
+    </header>
+    
+    <div class="container mt-5">
+        <h2>เกี่ยวกับเว็บไซต์นี้</h2>
+        <p>เว็บไซต์นี้ เป็นเว็บไซต์เกี่ยวกับ Portforlio ของผม</p>
+        
+        <h2>เกี่ยวกับตัวผม</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/466979735_3851132108464291_7026854571959464661_n.jpg" class="card-img-top clickable-image" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">เกี่ยวกับตัวผม</h5>
+                        <p class="card-text">ชื่อ ธนพนธ์ จงเพิ่มวัฒนะผล</p>
+                        <p class="card-text">ชื่อเล่น ชิริว</p>
+                        <p class="card-text">เกิดวันที่ 3 มกราคม 2548</p>
+                        <p class="card-text">ที่อยู่ 70 ม.1 ตำบล บ่อสุพรรณ อำเภอ สองพี่น้อง จังหวัด สุพรรณบุรี</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://www.gstatic.com/android/keyboard/emojikitchen/20230216/u1f419/u1f419_u2615.png?fbx" class="card-img-top clickable-image" alt="Project 2">
+                    <div class="card-body">
+                        <p class="card-text">สิ่งที่ชอบ:ผัดกระเพราหมูกรอบ(ไข่ดาวด้วยก็ดี),แอปเปิล</p>
+                        <p class="card-text">สิ่งที่ไม่ชอบ:แมงสาบ</p>
+                        <p class="card-text">ผลงานที่ผมเคยทำ</p>
+                        <p class="card-text"><a href="https://www.figma.com/design/kDsAykfhvEqykmsiY7vlR7/Mini-Project?node-id=0-1&t=WCFzrmMbPWFB4RYS-1">งาน Project ที่ผมเคยทำ</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section class="container-fluid m-3" id="Contact">
+        <h2>Contact Us</h2>
+        <div class="col-md-6">
+                <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 ">
+                    <label for="exampleInputPassword1" class="form-label">Message</label>
+                    <textarea name="massage" id="massage" rows="4" class="form-control"></textarea>
+                </div>
+                <button type="send" class="btn btn-primary">Send Massage</button>
+                </form>
+            </div>
+        </section>
+
+
+        <h2 class="mt-4">Contact</h2>
+        <p><i class="fas fa-envelope"></i> Email: 664230010@webmail.npru.ac.th</p>
+        <p><i class="fas fa-phone"></i> Phone: +66 062 642 5396</p>
+        <p><i class="fab fa-github"></i> <a href="https://github.com/tanapon010/6645_Webbasic">My GitHub</a> 
+    </div>
+    
+    <footer class="text-center mt-5 py-3 bg-light text-black">
+        <p>&copy; 2025 tanapon Jongpemwattanapon. All rights reserved.</p>
+    </footer>
+    
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    //โค้ดนี้ใช้ JavaScript เพื่อเลือกทุกองค์ประกอบ <img> ที่มี class="clickable-image" [จะเลือก ทั้ง 3 รูป] และเพิ่ม Event Listener ให้กับแต่ละรูปภาพ เพื่อให้สามารถคลิกแล้วเกิด popup (SweetAlert2) แสดงรูปขยายได้
+
+    document.querySelectorAll(".clickable-image").forEach(img => {   //img แทนแต่ละรูปที่ถูกเลือกในลูป
+        img.addEventListener("click", function() {    //เพิ่มฟังก์ชันให้ แต่ละรูป เมื่อถูกคลิก
+
+            Swal.fire({
+                title: 'Image Preview',
+                imageUrl: img.src, // ใช้ src ของรูปที่คลิก
+                imageWidth: 500, // ขนาดรูปที่ขยาย
+                imageHeight: 'auto',
+                imageAlt: img.alt, // ใช้ alt ของรูป
+                showCloseButton: false,
+                //showconfirmButton: false,
+                //confirmButtoncolor: red,
+                confirmButtonText: 'ปิด'
+                
+            });
+        });
+    });
+</script>
+</body>
+</html>
